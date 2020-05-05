@@ -12,6 +12,13 @@ Update the following nodes for new build versions in the Nuspec file
 * Minor - adding functionality
 * Patch - backwards compatible bug fix
 
+## Nupkg file
+
+Build solution in Release Mode
+
+In source folder - run "nuget pack MadeToEngage.RequestHeaderVisitorGroup.nuspec"
+
+
 ## Release Notes
 
 Add description of updates made in new release
