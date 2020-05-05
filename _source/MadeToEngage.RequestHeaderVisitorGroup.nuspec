@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MadeToEngage.RequestHeaderVisitorGroup</id>
+    <version>1.0.0</version>
+    <authors>Johnny Mullaney</authors>
+    <owners>Made to Engage</owners>
+    <projectUrl>https://github.com/MadeToEngageOpenSource/Request-Header-Visitor-Group</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Request Header Visitor Group</description>
+    <releaseNotes>rSummary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+	<frameworkAssemblies>
+	  <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.6.2" />
+	</frameworkAssemblies>
+	<dependencies>
+		<group targetFramework=".NETFramework4.6.2">
+			<dependency id="EPiServer.CMS.AspNet" version="11.11" />
+			<dependency id="EPiServer.CMS.Core" version="11.11" />
+		</group>
+	</dependencies>
+  </metadata>
+  <files>
+	<file src="MadeToEngage.RequestHeaderVisitorGroup\bin\release\MadeToEngage.RequestHeaderVisitorGroup.dll" target="lib\462\MadeToEngage.RequestHeaderVisitorGroup.dll" />
+    <file src="MadeToEngage.RequestHeaderVisitorGroup\modules\**"  target="Content\modules" />
+  </files>
+</package>

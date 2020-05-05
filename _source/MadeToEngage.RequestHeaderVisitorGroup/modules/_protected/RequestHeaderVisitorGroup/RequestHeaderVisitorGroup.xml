@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <language name="English" id="en">
+    <enums>
+      <requestHeaderVisitorGroup>
+        <business>
+          <visitorgroup>
+            <model>
+              <requestheadervaluecondition>
+                <exists>Exists</exists>
+                <hasvalue>Has value</hasvalue>
+              </requestheadervaluecondition>
+            </model>
+          </visitorgroup>
+        </business>
+      </requestHeaderVisitorGroup>
+    </enums>
+  </language>
+</languages>
